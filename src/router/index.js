@@ -16,6 +16,7 @@ export default new Router({
 	{
 		path:'/login',
 		component:Login,
+		hidden:true
 	},
 	{
 		path: '',
@@ -45,7 +46,7 @@ export default new Router({
 			component: userInfo,
 			meta: {
 				title: '用户列表',
-
+				icon: 'user'
 			}
 		}]
 	},
